@@ -1,0 +1,10 @@
+package com.example.myreadinglist.repositories;
+
+import org.springframework.data.repository.PagingAndSortingRepository;
+
+import com.example.myreadinglist.metier.Role;
+import com.sun.xml.bind.v2.model.core.ID;
+
+public interface RoleRepository extends PagingAndSortingRepository<Role, Integer> {
+
+}

@@ -1,0 +1,25 @@
+package com.example.myreadinglist.util;
+
+import org.springframework.context.ApplicationListener;
+import org.springframework.context.event.ContextRefreshedEvent;
+import org.springframework.security.crypto.password.PasswordEncoder;
+
+import com.example.myreadinglist.repositories.LecteurRepository;
+import com.example.myreadinglist.repositories.LivreRepository;
+import com.example.myreadinglist.repositories.RoleRepository;
+
+public class DatabaseInitialiser implements ApplicationListener<ContextRefreshedEvent> {
+
+	private LecteurRepository lecteurRepository;
+	private RoleRepository roleRepository;
+	private LivreRepository livreRepository;
+	private PasswordEncoder passwordEncoder;
+	
+
+	@Override
+	public void onApplicationEvent(ContextRefreshedEvent event) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

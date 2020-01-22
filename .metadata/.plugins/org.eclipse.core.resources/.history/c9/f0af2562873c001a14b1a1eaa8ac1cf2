@@ -1,0 +1,5 @@
+package com.example.myreadinglist.web;
+
+public class LecteurRepository {
+
+}

@@ -1,0 +1,8 @@
+package com.example.myreadinglist.metier;
+
+public class Lecteur {
+	private int id;
+	private String username;
+	private String password;
+
+}

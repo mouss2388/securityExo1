@@ -1,0 +1,5 @@
+package com.example.myreadinglist.metier;
+
+public class Livre {
+
+}

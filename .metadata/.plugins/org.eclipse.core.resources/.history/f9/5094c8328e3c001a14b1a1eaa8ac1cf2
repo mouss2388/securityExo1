@@ -1,0 +1,7 @@
+package com.example.myreadinglist.util;
+
+import org.springframework.context.ApplicationListener;
+
+public class DatabaseInitialiser implements ApplicationListener<E> {
+
+}

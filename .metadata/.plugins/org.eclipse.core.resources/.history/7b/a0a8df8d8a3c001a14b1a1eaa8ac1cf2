@@ -1,0 +1,9 @@
+package com.example.myreadinglist.repositories;
+
+import org.springframework.data.repository.PagingAndSortingRepository;
+
+import com.example.myreadinglist.metier.Lecteur;
+
+public interface LecteurRepository extends PagingAndSortingRepository<Lecteur, Integer> {
+
+}

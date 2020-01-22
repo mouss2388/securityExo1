@@ -1,0 +1,9 @@
+package com.example.myreadinglist.metier;
+
+public class Livre {
+	
+	private int id;
+	private String titre;
+	private String isbn;
+
+}
